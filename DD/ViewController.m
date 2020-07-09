@@ -25,6 +25,12 @@
     [bt setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     [bt addTarget:self action:@selector(btClick:) forControlEvents:UIControlEventTouchUpInside];
     [self.view addSubview:bt];
+    
+    UILabel*myLabel=[[UILabel alloc] initWithFrame:CGRectMake(50, 100, 100, 200)];
+    myLabel.text=@"Labelasa";
+    myLabel.textColor=[UIColor whiteColor];
+    myLabel.backgroundColor=[UIColor redColor];
+    [self.view addSubview:myLabel];
 }
 
 
