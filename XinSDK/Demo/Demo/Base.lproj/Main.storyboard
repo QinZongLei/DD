@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina6_1" orientation="landscape" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="vRn-vJ-dkA">
+                        <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="qyj_login_sp" translatesAutoresizingMaskIntoConstraints="NO" id="zxC-1h-3eH">
+                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7w8-2f-zB6">
+                                <rect key="frame" x="748" y="108" width="80" height="40"/>
+                                <color key="backgroundColor" name="systemOrangeColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="3zs-IO-AgA"/>
+                                    <constraint firstAttribute="height" constant="40" id="BjU-sG-cDF"/>
+                                </constraints>
+                                <state key="normal" title="登录"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="loginAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="iP3-Ix-hDH"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vDs-rn-NGm">
+                                <rect key="frame" x="748" y="44" width="80" height="40"/>
+                                <color key="backgroundColor" red="0.58188301320000002" green="0.21569153669999999" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="6AP-mk-Npz"/>
+                                    <constraint firstAttribute="width" constant="80" id="LDv-M0-Lmv"/>
+                                </constraints>
+                                <state key="normal" title="初始化"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="initAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="km3-ox-FmE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7en-Ic-luY">
+                                <rect key="frame" x="732.5" y="172" width="111" height="40"/>
+                                <color key="backgroundColor" red="1" green="0.49327188729999999" blue="0.47399842739999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="4cF-PE-SoQ"/>
+                                </constraints>
+                                <state key="normal" title="上传用户信息"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="uploadAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="LpR-sQ-x0J"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X9H-ue-c5p">
+                                <rect key="frame" x="748" y="236" width="80" height="40"/>
+                                <color key="backgroundColor" name="systemTealColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="Mtc-vK-ttf"/>
+                                    <constraint firstAttribute="height" constant="40" id="xmD-w7-EEa"/>
+                                </constraints>
+                                <state key="normal" title="内购"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="buyAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="tAu-MI-mdX"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LGU-a7-5qV">
+                                <rect key="frame" x="748" y="300" width="80" height="40"/>
+                                <color key="backgroundColor" name="disabledControlTextColor" catalog="System" colorSpace="catalog"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="80" id="9SN-d4-O7k"/>
+                                    <constraint firstAttribute="height" constant="40" id="pPD-Cg-cLK"/>
+                                </constraints>
+                                <state key="normal" title="退出"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                        <integer key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="logoutAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="CnV-7B-0fR"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="jG8-Sj-jZk"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="7w8-2f-zB6" firstAttribute="centerX" secondItem="vDs-rn-NGm" secondAttribute="centerX" id="2BL-Ja-foK"/>
+                            <constraint firstItem="7w8-2f-zB6" firstAttribute="top" secondItem="vDs-rn-NGm" secondAttribute="bottom" constant="24" id="K4b-tA-ymO"/>
+                            <constraint firstItem="X9H-ue-c5p" firstAttribute="top" secondItem="7en-Ic-luY" secondAttribute="bottom" constant="24" id="OGI-Ud-hvj"/>
+                            <constraint firstItem="7en-Ic-luY" firstAttribute="centerX" secondItem="7w8-2f-zB6" secondAttribute="centerX" id="URL-0p-Gas"/>
+                            <constraint firstAttribute="bottom" secondItem="zxC-1h-3eH" secondAttribute="bottom" id="VaM-zN-Pba"/>
+                            <constraint firstAttribute="trailing" secondItem="zxC-1h-3eH" secondAttribute="trailing" id="WIa-Ad-WZf"/>
+                            <constraint firstItem="jG8-Sj-jZk" firstAttribute="trailing" secondItem="vDs-rn-NGm" secondAttribute="trailing" constant="24" id="bB3-tz-Tsm"/>
+                            <constraint firstItem="LGU-a7-5qV" firstAttribute="centerX" secondItem="X9H-ue-c5p" secondAttribute="centerX" id="eMp-tc-1bU"/>
+                            <constraint firstItem="zxC-1h-3eH" firstAttribute="top" secondItem="vRn-vJ-dkA" secondAttribute="top" id="fKJ-ll-hRJ"/>
+                            <constraint firstItem="7en-Ic-luY" firstAttribute="top" secondItem="7w8-2f-zB6" secondAttribute="bottom" constant="24" id="ghK-yD-nsh"/>
+                            <constraint firstItem="vDs-rn-NGm" firstAttribute="top" secondItem="jG8-Sj-jZk" secondAttribute="top" constant="44" id="mKw-M8-1ev"/>
+                            <constraint firstItem="zxC-1h-3eH" firstAttribute="leading" secondItem="vRn-vJ-dkA" secondAttribute="leading" id="vUd-ux-feF"/>
+                            <constraint firstItem="LGU-a7-5qV" firstAttribute="top" secondItem="X9H-ue-c5p" secondAttribute="bottom" constant="24" id="x4U-gj-0eK"/>
+                            <constraint firstItem="X9H-ue-c5p" firstAttribute="centerX" secondItem="7en-Ic-luY" secondAttribute="centerX" id="zo9-ZO-p6M"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="51" y="36"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="qyj_login_sp" width="1280" height="720"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

@@ -1,0 +1,247 @@
+//
+//  SimpelSDK_Header.pch
+//  SimpleSDK
+//
+//  Created by XYL on 2021/12/1.
+//
+
+
+
+
+#ifndef SimpelSDK_Header_pch
+#define SimpelSDK_Header_pch
+
+
+#import "NSString+AES.h"
+#import "GTMBase64.h"
+#import "UIView+YYAdd.h"
+#import "SimpleSDK_Tools.h"
+#import "SimpleSDK_ViewManager.h"
+#import "SimpleSDK_BaseView.h"
+#import "SimpleSDK_CustomUITextFieldView.h"
+#import "SimpleSDK_Toast.h"
+#import "UIColor+HexColorExtension.h"
+#import <UIKit/UIKit.h>
+#import "SimpleSDK_DataTools.h"
+#import "SimpleSDK_ManagerView.h"
+#import "SimpleSDK_AccountCancelView.h"
+#import "SimpleSDK_PhoneCancelView.h"
+
+
+#define kScreen_Width [UIScreen mainScreen].bounds.size.width
+
+#define kScreen_Height [UIScreen mainScreen].bounds.size.height
+
+#define kUserDefaults [NSUserDefaults standardUserDefaults]
+
+#define kAppName        [[[NSBundle mainBundle] infoDictionary] valueForKey:@"CFBundleName"]
+
+#define kBuildVersion   [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+#define kBundleId       [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleIdentifier"]
+
+#define kAppVersion     [[[NSBundle mainBundle] infoDictionary] objectForKey:@"CFBundleShortVersionString"]
+
+#define kUUID         [[[UIDevice currentDevice] identifierForVendor] UUIDString]
+
+// 是否为空对象
+#define kFormatString(string)   [string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+
+#define kBundlePath  [NSBundle bundleWithURL:[[NSBundle mainBundle] URLForResource:@"SimpleSDK" withExtension:@"bundle"]]
+
+#define kGetBundle              [[NSBundle mainBundle] URLForResource:@"SimpleSDK" withExtension:@"bundle"]]
+
+#define kSetBundleImage(name)   [UIImage imageWithContentsOfFile:[kBundlePath pathForResource:name ofType:@"png"]]
+
+#define kSaveAllAccount         [NSString stringWithFormat:@"%@.%@.SaveAllAccount", kGameId, kProductKey]
+
+#define kSaveCurrentAccount     [NSString stringWithFormat:@"%@.%@.SaveCurrentAccount", kGameId, kProductKey]
+
+//十六进制颜色
+#define RGBHEX(rgbValue)        [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:1.0]
+
+//十六进制颜色，透明度
+#define RGBHEXALPHA(rgbValue,a) [UIColor colorWithRed:((float)((rgbValue & 0xFF0000) >> 16))/255.0 green:((float)((rgbValue & 0xFF00) >> 8))/255.0 blue:((float)(rgbValue & 0xFF))/255.0 alpha:(a)]
+
+#define KeyBoardHightIsIPHONEOrIPAD          ((UI_USER_INTERFACE_IDIOM() == UIUserInterfaceIdiomPhone) ? (120):(250))
+
+#define SCREENWIDTH             [UIScreen mainScreen].bounds.size.width
+
+#define SCREENHEIGHT            [UIScreen mainScreen].bounds.size.height
+
+#define SCREEN_MAX_LENGTH       (MAX(SCREENWIDTH, SCREENHEIGHT))
+
+#define SCREEN_MIN_LENGTH       (MIN(SCREENWIDTH, SCREENHEIGHT))
+
+//根据6，7，8适配 横屏
+#define kHWidth(width)          ((UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPhone) ? (width / 667.0) *(SCREENWIDTH >=736.0 ? 700 :SCREENWIDTH) : (width / 667.0) * 896.0)
+
+//根据6，7，8适配 竖屏
+#define kVWidth(width)          ((UI_USER_INTERFACE_IDIOM()== UIUserInterfaceIdiomPhone) ? (width / 375.0) * SCREENWIDTH : (width / 375.0) * 414.0)
+
+// 是否为竖屏
+#define IsVertical              ([[UIApplication sharedApplication] statusBarOrientation] == UIInterfaceOrientationPortrait || [[UIApplication sharedApplication] statusBarOrientation] == UIInterfaceOrientationPortraitUpsideDown)
+
+#define kWidth(width)           (IsVertical ? kVWidth(width) : kHWidth(width))
+
+#define kStringIsNull(string)   (string == nil || string == NULL || [string isKindOfClass:[NSNull class]] || [[string stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceCharacterSet]] length] == 0 || [string containsString:@"null"] || [string isEqualToString:@""])
+
+#define kDictNotNull(dict)      ([dict isKindOfClass:[NSDictionary class]]?(dict?(dict.count>0?YES:NO):NO):NO)
+
+#define kSaveOrderInfo          [NSString stringWithFormat:@"%@.%@.SaveOrderInfo", kGameId, kProductKey]
+
+#define kFlagHidenGiftCodeFloat           [NSString stringWithFormat:@"%@.%@.GiftCodeFloatFlag", kGameId, kProductKey]
+
+// 是否是异形屏
+#define kIsIphoneX ({\
+BOOL isiPhoneX = NO;\
+if (@available(iOS 11.0, *)) {\
+UIWindow *window = [UIApplication sharedApplication].delegate.window;\
+if (window.safeAreaInsets.bottom > 0.0) {\
+isiPhoneX = YES;\
+}\
+}\
+isiPhoneX;\
+})
+
+static NSString *CelliIdentify = @"CelliIdentify";
+
+#pragma mark ------ Customize Define Start  ------
+
+#define kApiHost      @"https://imp.aa1j.com"//请求域名
+
+
+#define kSDKVersion     @"1.0.0"//SDK版本号
+
+#define kGameId         @"103096"//游戏ID
+
+#define kChnId     @"461"//渠道ID
+
+#define kChannelId      @"10000"//广告渠道ID
+
+#define kProductKey     @"27f0e02d4a1242d7891b9f85d33f26f1"//游戏Key
+
+
+#pragma mark ------ api ------
+#define kNetworkInit            @"sdk.game.initsdk"  //初始化 - 1
+#define kNetworkLogin            @"sdk.user.login" //登陆-1
+#define kNetworkRegister         @"sdk.user.reg" //注册-1
+#define kNetworkmobileLogin           @"sdk.user.mobileLogin" //手机号登陆-1
+#define kNetworkGetPhoneLoginCode         @"sdk.user.code" //获取验证码-1
+#define kNetworkBindPhone       @"sdk.user.bindMobile"   //绑定手机-1
+#define kNetworkcheckUserMobileCodeservice @"sdk.user.checkUserMobileCode" //手机登录修改密码验证手机号和验证码 - 1
+#define kNetworkFindPwd    @"sdk.user.updatePwd"   //手机登录修改密码 - 1
+#define kNetworkUserCenterUpdatePwd       @"sdk.user.updatePwdWithOld"  //通过旧密码修改密码 - 1
+#define kNetworkCreateOrderService     @"sdk.pay.fororder"  //统一下单 - 1
+#define kNetworkApplePayService                          @"sdk.pay.apple"    //内购验签 - 1
+#define kNetworkGameEventService             @"sdk.game.enterGame" //数据上报 -1
+#define kNetworkPayOrderStatuesService                   @"sdk.pay.query"   //查询订单状态(验单之后) - 1
+#define kNetworkSetIDCard        @"sdk.user.setFcmInfo"    //实名认证-1
+#define kNetworkCustomerService @"sdk.info.getCustomerService" //客服链接 -1
+#define kNetworkcheckUserTimeoutService                @"sdk.user.checkTimeout"//心跳接口 - 1
+#define kNetWorkGetWxInfoService         @"sdk.info.getWxPublicInfo"  //获取公众号-1
+#define kNetworkgGetPayments     @"sdk.pay.getPayState"   //获取支付方式 - 1
+#define kNetworkGetASAApiLogService                   @"sdk.game.apiLog" //归因上传 - 1
+#define kNetworkGetRealNameService                      @"sdk.info.getRealNameText"  //实名认证文本-1
+#define kNetworkPrivacySwithService @"sdk.game.config"  //后台隐私开关 - 1
+#define kNetworkGetGameNewsService                   @"sdk.game.notice" //获取消息列表-1
+#define kNetworkGetgetGiftCodeService                   @"sdk.info.getGiftCode"   //获取礼包码 - 1
+
+#define kNetworkCancelAccountOrPhone                   @"sdk.user.cancel"   //账号or手机号注销 - 1
+
+
+
+
+#pragma mark ------ imageView ------
+
+#define dialogBg @"user_Bg"//弹出消息框背景图
+#define dialogCenterBg @"user_Center_Bg"//弹出消息框背景图
+#define inputBg @"input_Bg"//文本输入框背景图
+#define inputAccountIcon @"account_Icon"//账号输入框icon
+#define inputNameIcon @"inname_Icon"//账号输入框icon
+#define inputPwdIcon @"pwd_Icon"//密码输入框icon
+#define inputUpdatePwdIcon @"updatePwd_Icon"//修改密码输入框icon
+#define inputPhoneIcon @"phone_Icon"//手机输入框icon
+#define inputIdCardIcon @"id_Card_Icon"//身份证输入框icon
+#define userIcon @"user_Logo"//用户icon
+#define quickRegistered @"fast_Registered"//快速注册
+#define phoneLoginBtn @"phone_Login"//手机登录
+#define accountLoginBtn @"account_Login"//账号
+#define radioBtnSelectedImg @"check_on"//单选选中图片
+#define radioBtnCheckImg @"check_off"//单选不选中图片
+#define downDefaultImg @"down_Btn"//下拉列表默认图片
+#define downOpenImg @"up_Btn"//下拉列表打开图片
+#define pwdShowImg @"show_Pwd"//密码显示图标
+#define pwdHiddenImg @"hiad_Pwd"//密码隐藏图标
+#define floatImg @"function_Normal"//正常悬浮球图标
+#define floatRedImg @"function_Red"//带红点点悬浮球图标
+#define msgImg @"notice_Normal"//正常消息图标
+#define msgRedImg @"notice_Red"//带红点点icon
+#define accountRedImg @"account_Red"//带红点账号图标
+#define accountNormalImg @"account_Normal"//不带红点账号图标
+#define publicCodeImg @"public_Code"//正常公众号图标
+#define publicCodeRedImg @"public_Code_Red" //带红点的公众号图标
+#define serviceImg @"customer_service"
+#define quickRegisteredBtn @"fast_Reg_Btn"//快速注册
+#define loginBtn @"login_Btn"//登入游戏
+#define loginPhoneBtn @"phone_Btn"//手机登入游戏
+#define getCodeBg @"obtain_code"//获取验证码背景
+#define determineBtn @"confirm_Btn"//确定
+#define idCareRealNameBtn @"cardName_Btn"//确定
+#define bindingBtn @"bind_Phone_Btn"//绑定
+#define switchImg @"switch_Btn"//切换
+#define copyImg @"copy_Btn"//拷贝
+#define backBtn @"the_fallback"//返回
+#define lineImg @"the_line_divider"//分割线
+#define menuRealnameImg @"menu_Realname"//实名标识
+#define menuRealnameBtn @"menu_Realname_btn"//实名右边标识
+#define menuAlreadyRealnameBtn @"menu_Alread_Realname_btn"//已经实名右边标识
+#define menuBindPhoneImg @"menu_Bind_Phone"//绑定手机标识
+#define menuBindPhoneBtn @"menu_BindPhone_btn"//绑定手机右边标识
+#define menuAlreadyBindPhoneBtn @"menu_Already_BindPhone_btn"//已经绑定手机右边标识
+#define menuPwdImg @"menu_Pwd"//修改密码标识
+#define menuChangePwdBtn @"menu_ChangePwd_btn"//修改密码右边标识
+#define commentsImg @"review"//评论图标
+#define commentsRedImg @"review_red"//评论红图标icon
+#define InputPhoneCodeIcon @"code_iconImg" //输入框手机验证icon
+#define fastRegBgImgV @"fast_bgReg"//快速注册背景
+#define phoneLoginBgImgV @"phone_bgLogin"//手机登录背景
+#define accountLoginBgImgV @"account_bgLogin"//账号登录背景
+#define idCardBgImgV @"idCard_bg"//实名认证背景
+#define publicBgImgV @"public_bg"//公众号背景
+#define noticeBgImgV @"notice_bg"//公告背景
+#define accountSetBgImgV @"accountSet_bg"//账号设置背景
+#define bindPhonBgImgV @"bind_phoneBg"//账号设置背景
+#define updatePwdBgImgV @"update_phoneBg"//修改密码背景
+#define qrCodeImgBg @"qrCode_bg" //QR背景
+#define noticeDetailBgImgV @"notice_detail_bg" //公告详情背景
+#define accountCancelBgImgV @"account_caccel_bg" //账号注销背景
+#define phoneCancelBgImgV @"phone_caccel_bg" //手机号注销背景
+#define qinwangBtn @"qianwang_btn" //前往
+#pragma mark ------ txtColor ------
+
+
+#define color_agreement_tip        [UIColor ZNWinObj_colorWithHexString:@"#ffffff"]
+#define color_findPwd        [UIColor ZNWinObj_colorWithHexString:@"#ff0000"]
+#define color_agreement       [UIColor ZNWinObj_colorWithHexString:@"#fff0ac"]
+#define color_edit_prompt     [UIColor ZNWinObj_colorWithHexString:@"#646464"]
+#define color_edit_body        [UIColor ZNWinObj_colorWithHexString:@"#434343"]
+#define color_getcode        [UIColor ZNWinObj_colorWithHexString:@"#ddd3f3"]
+#define color_idCrad_tip        [UIColor ZNWinObj_colorWithHexString:@"#ffffff"]
+#define color_service        [UIColor ZNWinObj_colorWithHexString:@"#ff6500"]
+#define color_title_tip        [UIColor ZNWinObj_colorWithHexString:@"#ffec69"]
+#define color_login_tip        [UIColor ZNWinObj_colorWithHexString:@"#ffec69"]
+#define color_center_uidAccount        [UIColor ZNWinObj_colorWithHexString:@"#909090"]
+
+#define color_lbTfLeftTextHex [UIColor ZNWinObj_colorWithHexString:@"#ffeb9e"]  //输入框左边文字颜色
+#define color_greentHex [UIColor ZNWinObj_colorWithHexString:@"#00ff18"]  //账号设置是否认证、绑定文字颜色
+#define color_publicTopHex [UIColor ZNWinObj_colorWithHexString:@"#c9a540"]
+#define color_msgContentHex [UIColor ZNWinObj_colorWithHexString:@"#fff0ac"]//公告中心文字颜色
+
+#define color_welcomeNormalHex [UIColor ZNWinObj_colorWithHexString:@"#fff0ac"]//欢迎页普通文字颜色
+
+#define color_welcomeAccountHex [UIColor ZNWinObj_colorWithHexString:@"#ff6500"]//欢迎页账号文字颜色
+
+#define tfLeftLabelInpublicFont 17 //输入框左边文字大小
+
+#endif /* SimpelSDK_Header_pch */
