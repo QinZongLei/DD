@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "6D9D7526-93C0-495E-895F-8963ABE2B40E"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FC9469E8-41E0-49EB-9CE1-767171FABDA8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleSDK/SimpleSDK/Tools/SimpleSDK_DataTools.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "174"
+            endingLineNumber = "174"
+            landmarkName = "+func_getAllAccount"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A2814970-4E61-4249-9A4C-C422A756993A"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "SimpleSDK/SimpleSDK/Tools/IPA/SimpleSDK_IPAManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "287"
+            endingLineNumber = "287"
+            landmarkName = "+JLYXFunc_UploadOrderOfOrderId:JLYXSimple_ReceiptData:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "A2814970-4E61-4249-9A4C-C422A756993A - 329f072650e4f6d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__77+[SimpleSDK_IPAManager JLYXFunc_UploadOrderOfOrderId:JLYXSimple_ReceiptData:]_block_invoke"
+                  moduleName = "SimpleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/%E5%87%BASDK/%E6%99%AE%E9%80%9ASDK/%E7%A5%9E%E5%99%A8/XinSDK/SimpleSDK/SimpleSDK/Tools/IPA/SimpleSDK_IPAManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "A2814970-4E61-4249-9A4C-C422A756993A - 329f072650e4f6d1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__77+[SimpleSDK_IPAManager JLYXFunc_UploadOrderOfOrderId:JLYXSimple_ReceiptData:]_block_invoke"
+                  moduleName = "SimpleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/%E5%87%BASDK/%E6%99%AE%E9%80%9ASDK/%E7%A5%9E%E5%99%A8/XinSDK/SimpleSDK/SimpleSDK/Tools/IPA/SimpleSDK_IPAManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "422">
+               </Location>
+               <Location
+                  uuid = "A2814970-4E61-4249-9A4C-C422A756993A - b2f86775503e3de8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__77+[SimpleSDK_IPAManager JLYXFunc_UploadOrderOfOrderId:JLYXSimple_ReceiptData:]_block_invoke"
+                  moduleName = "SimpleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/%E5%87%BASDK/%E6%99%AE%E9%80%9ASDK/%E7%A5%9E%E5%99%A8/%E7%A5%9E%E5%99%A83/XinSDK/SimpleSDK/SimpleSDK/Tools/IPA/SimpleSDK_IPAManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "A2814970-4E61-4249-9A4C-C422A756993A - b2f86775503e3de8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__77+[SimpleSDK_IPAManager JLYXFunc_UploadOrderOfOrderId:JLYXSimple_ReceiptData:]_block_invoke"
+                  moduleName = "SimpleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/%E5%87%BASDK/%E6%99%AE%E9%80%9ASDK/%E7%A5%9E%E5%99%A8/%E7%A5%9E%E5%99%A83/XinSDK/SimpleSDK/SimpleSDK/Tools/IPA/SimpleSDK_IPAManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "422">
+               </Location>
+               <Location
+                  uuid = "A2814970-4E61-4249-9A4C-C422A756993A - b2f86775503e3de8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__77+[SimpleSDK_IPAManager JLYXFunc_UploadOrderOfOrderId:JLYXSimple_ReceiptData:]_block_invoke"
+                  moduleName = "SimpleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/%E5%87%BASDK/%E6%99%AE%E9%80%9ASDK/%E7%A5%9E%E5%99%A8/%E7%A5%9E%E5%99%A85/XinSDK/SimpleSDK/SimpleSDK/Tools/IPA/SimpleSDK_IPAManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "412">
+               </Location>
+               <Location
+                  uuid = "A2814970-4E61-4249-9A4C-C422A756993A - b2f86775503e3de8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__77+[SimpleSDK_IPAManager JLYXFunc_UploadOrderOfOrderId:JLYXSimple_ReceiptData:]_block_invoke"
+                  moduleName = "SimpleSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/admin/Desktop/%E5%87%BASDK/%E6%99%AE%E9%80%9ASDK/%E7%A5%9E%E5%99%A8/%E7%A5%9E%E5%99%A85/XinSDK/SimpleSDK/SimpleSDK/Tools/IPA/SimpleSDK_IPAManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "287"
+                  endingLineNumber = "287"
+                  offsetFromSymbolStart = "422">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
