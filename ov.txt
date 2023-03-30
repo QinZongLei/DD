@@ -1,0 +1,202 @@
+
+如何获取在IPhone上安装的APP的IPA包
+Apple Configurator查看ipa: 快捷键common+shift+G  直接进入 
+
+~/Library/Group Containers/K36BKF7T3D.group.com.apple.configurator/Library/Caches/Assets/TemporaryItems/MobileApps/
+
+
+
+
+class-dump不能直接将AppStore上的app的头文件导出来，要砸破壳
+在终端输入：otool -l WeChat | grep crypt，我们会看到一个重要的信息，cryptid 1，这表明这个项目文件还未没砸壳，0则表示已经完成砸壳。 (WeChat为路径)
+
+class-dump安装：
+1、下载地址：http://stevenygard.com/projects/class-dump/
+2、打开终端输入 open /usr/local/bin
+3、把dmg文件中的class-dump文件复制到 /usr/local/bin
+4、更改权限：终端输入 sudo chmod 777 /usr/local/bin/class-dump
+到这儿就安装完成了。
+
+显示class-dump的用法和版本
+
+class-dump --help
+
+class-dump从ipa逆向提取头文件:
+1、解压包体
+2、cd 到当前包体路径下
+3、class-dump -H test1 -o test1Headers (test1是我把test1.app.ipa解压后里面的match-o文件，test1Headers是指输出所有头文件到这个文件夹的路径)
+
+
+
+冰果gitLabel账号密码:
+tanzonglei
+qin123456
+
+
+Cocos creator账号密码:
+864614718@qq.com
+qin123456lei
+
+
+对比ipa包的文件差异：
+
+1.直接将包解压出来
+2.将app文件拖到终端
+3.在终端执行otool -ov app名字 >> （解出文件位置）/Users/admin/Desktop/jiebao/ov.txt
+
+
+
+重签ipa包:
+
+fastlane sigh resign
+
+
+Git 仓库:
+账号:qinzonglei
+密码:qin123456
+
+
+440583199406070457   陈叙辉
+
+
+使用MAC自带otool工具查看库内容
+otool -L /xx/xx/xxx.dylib
+
+删除动态库(先查看动态库的路径-要剥离的库即路径)
+optool uninstall -p "要剥离的库" -t "二进制名称"
+
+optool:
+1、因为在 macOS 10.11 及以上版本中引入了系统完整性保护（System Integrity Protection）
+所以即使是 Root 用户，对 /usr/bin/ 目录也只有读权限，没有写权限
+因此需要将 optool 文件复制到 /usr/local/bin/ 目录下
+打开终端，赋予 yololib 文件可执行权限 sudo chmod +x /usr/local/bin/optool
+
+2、optool install -c load -p "@executable_path/Frameworks/libTest1234.dylib" -t /Users/mac/Desktop/11112333/Payload/LYHC.app/LYHC
+
+
+
+
+
+Yololib:
+1、因为在 macOS 10.11 及以上版本中引入了系统完整性保护（System Integrity Protection）
+所以即使是 Root 用户，对 /usr/bin/ 目录也只有读权限，没有写权限
+因此需要将 yololib 文件复制到 /usr/local/bin/ 目录下
+打开终端，赋予 yololib 文件可执行权限 sudo chmod +x /usr/local/bin/yololib
+
+2、yololib /Users/mac/Desktop/11112333/Payload/LYHC.app/LYHC Frameworks/libTest1234.dylib
+
+
+查Xcode病毒：grep '6375726c20' --include '*.pbxproj' -r 
+
+
+
+
+网络:ZHONGXU
+密码:!zhongxu888!
+
+
+网络:zwin-jishu
+密码:Zwintech.jishu
+
+
+网站地址:
+
+1、https://blog.csdn.net/a18339063397/article/details/81482073
+2、https://blog.csdn.net/csdnAaron/article/details/48370549
+3、https://blog.csdn.net/manwei361/article/details/84941328
+4、https://www.jianshu.com/p/494eaf8d4d7a
+5、https://blog.csdn.net/weixin_35476698/article/details/111986906
+6、https://blog.csdn.net/weixin_33725722/article/details/91397767?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control&dist_request_id=1328740.25235.16169032946584845&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.control
+7、https://zhuanlan.zhihu.com/p/296532387
+8、https://www.jianshu.com/p/307a3b7cfd6c
+9、https://www.jianshu.com/p/9531a85ba165
+10、https://blog.csdn.net/joinclear/article/details/107641680
+11、https://help.apple.com/app-store-connect/#/devb57be10e7
+12、https://blog.csdn.net/u010960265/article/details/78629729
+13、https://www.jianshu.com/p/d384e16845e3
+14、http://blog.viiio.com/topic/316
+15、https://blog.csdn.net/iosYangming/article/details/51568811
+16、http://tool.chacuo.net/cryptaes/
+17、https://opendocs.alipay.com/common/02kipl
+18、https://www.jianshu.com/p/61f60d03a65d
+19、https://www.jianshu.com/p/6e3530cd375a
+20、https://jingyan.baidu.com/article/15622f242b104bfdfcbea5b8.html
+21、https://www.cnblogs.com/hecanlin/p/13813175.html
+22、https://blog.csdn.net/weixin_42292229/article/details/113481536
+23、https://searchads.apple.com/cn/help/reporting/0028-apple-ads-attribution-api
+24、https://enjoyglobal.net/detail/news/LNews951
+25、https://www.jianshu.com/p/433114141cf1
+26、https://cloud.tencent.com/developer/article/1128079
+27、https://www.jianshu.com/p/af49d5c3e1f6
+28、https://www.cnblogs.com/Yishu/p/5728427.html
+29、https://www.jianshu.com/p/0b317459a51a
+30、https://blog.csdn.net/TailOfFairyLu/article/details/84796984
+31、https://www.cnblogs.com/losedMemory/p/5768742.html?utm_medium=referral
+32、https://www.jianshu.com/p/8eb29e193fcf
+33、https://www.jianshu.com/p/42ebc145b22a
+34、https://blog.csdn.net/humiaor/article/details/105426611?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7Edefault-1.no_search_link&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EOPENSEARCH%7Edefault-1.no_search_link50%E3%80%81https://www.163.com/dy/article/G5CQEEVU05119FKC.html
+35、https://www.163.com/dy/article/G5CQEEVU05119FKC.html
+36、https://www.jianshu.com/p/1509ba6b7da8
+37、https://www.cnblogs.com/Life-Record/p/8472319.html
+38、https://github.com/mjl123iOS/iOS_WXh5
+39、https://www.runoob.com/swift/swift-literals.html
+40、https://www.liangjianghu.com/docs/apple-adservices-framework-without-idfa-for-asa-search-ads.html
+41、https://www.cnblogs.com/anans/p/15725775.html
+42、https://www.jianshu.com/p/c38157e5d6c1
+43、https://blog.csdn.net/bmengmeng/article/details/96371016?utm_term=python%E5%AF%B9%E6%AF%94%E6%96%87%E4%BB%B6%E5%B7%AE%E5%BC%82&utm_medium=distribute.pc_aggpage_search_result.none-task-blog-2~all~sobaiduweb~default-2-96371016&spm=3001.4430
+44、https://blog.csdn.net/weixin_43124425/article/details/117332201?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_aa&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_aa&utm_relevant_index=2
+45、https://www.cnblogs.com/huaixu/p/7680404.html
+46、https://blog.csdn.net/A1521315qwss/article/details/121567775?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1.pc_relevant_default&utm_relevant_index=1
+47、https://blog.csdn.net/weixin_35607383/article/details/115424448
+48、https://www.nppa.gov.cn/nppa/channels/317.shtml
+49、https://www.pianshen.com/article/136262108/
+50、https://www.52pojie.cn/thread-1475927-1-1.html
+51、https://study.163.com/course/introduction.htm?courseId=1209792826&_trace_c_p_k2_=e6e72030d9e14591a9b9c2ae065963f1
+52、https://www.jianshu.com/p/24bba2ee8850
+53、https://www.jianshu.com/p/c1059b2f3351
+54、https://www.jianshu.com/p/2690abbb84aa
+55、https://blog.csdn.net/Airths/article/details/109245964
+56、https://www.jianshu.com/p/3cd26dc49b66?u_atoken=fca88e76-a956-42e6-9f41-4383dc55f18c&u_asession=01g5HP5HuNkF9jXLHLq5NeWPyxhV7mi_FicpMAds2jfqEf3EJoHQRiYn0dnK7noWZDX0KNBwm7Lovlpxjd_P_q4JsKWYrT3W_NKPr8w6oU7K-dHJ7JJeZujmCVZPGZBTVsPMqDvQo0pEVbhSjSW3HVJmBkFo3NEHBv0PZUm6pbxQU&u_asig=05qiMI4GjSNuFdOGXalco8G2S8Nvjl_8hJODZA2PO4b4bgn_kzfuyPkf_mJmhDCOmelMEJEzHUiEHGYKzZoMkgiCxI3ivhJdm32jGvi-ypL6pANtIoEMpBnk9Wt7lIkloHNRZER9SODN9Ovc99Uik-kGYl8A4TB9OR6U3zw7k0p5n9JS7q8ZD7Xtz2Ly-b0kmuyAKRFSVJkkdwVUnyHAIJzQZLT7VcmGV1pup0qHN5KK1KXiFVWquDyY85Gnun2QxYOF33MttdlYrQH7V14NMYIe3h9VXwMyh6PgyDIVSG1W8pAIv_DWcq0b-oiURUSdEKa8a2MC7ujQQnmTnbm7NSdWzL1A5tpImiO_fmw_3LSixSM99zt2Do1DyNqXFijS8OmWspDxyAEEo4kbsryBKb9Q&u_aref=YJqJSFCpNojB34k1Y34qHXbUgVU%3D
+57、https://blog.csdn.net/weixin_42292229/article/details/124054651
+58、http://www.beijing-time.org/shijianchuo/
+59、https://www.jianshu.com/p/3215c865d2b7
+60、https://www.jianshu.com/p/1796f68f4bb9
+61、https://blog.csdn.net/ruoji/article/details/106100063
+62、https://blog.csdn.net/u013712343/article/details/118723443?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118723443-blog-52562556.t0_edu_mlt&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-118723443-blog-52562556.t0_edu_mlt&utm_relevant_index=1
+63、https://onevcat.com/2013/06/sprite-kit-start/
+64、https://www.cnblogs.com/sundaysgarden/p/10982319.html
+65、https://coderdong.blog.csdn.net/article/details/112492600?spm=1001.2101.3001.6650.1&utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-112492600-blog-99941192.pc_relevant_3mothn_strategy_recovery&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromBaidu%7ERate-1-112492600-blog-99941192.pc_relevant_3mothn_strategy_recovery&utm_relevant_index=2
+66、https://blog.csdn.net/nidexuanzhe/article/details/6091285
+67、https://zhuanlan.zhihu.com/p/380603708
+68、https://www.cnblogs.com/lvchenhao/p/4242295.html
+69、https://idmsa.apple.com/IDMSWebAuth/signin.html?path=%2Fcontact%2Fapp-store%2F%3Ftopic%3Dexpedite&appIdKey=891bd3417a7776362562d2197f89480a8547b108fd934911bcbea0110d07f757&rv=0
+70、https://www.jianshu.com/p/cfa3b2be8840
+71、https://www.jianshu.com/p/a2df9de49d08
+72、https://appleid.apple.com/
+73、https://stackoom.com/
+74、https://www.jianshu.com/p/7741335debf9
+75、https://developers.weixin.qq.com/miniprogram/dev/framework/quickstart/code.html#JSON-%E9%85%8D%E7%BD%AE
+76、https://www.jianshu.com/p/834105c049c0
+77、https://www.cnblogs.com/yzeng/p/8519492.html
+78、https://www.jianshu.com/p/f0bb80ca1a11
+79、https://zhuanlan.zhihu.com/p/146089183?utm_id=0
+80、https://blog.csdn.net/qq_33591200/article/details/112491554
+81、https://coderdong.blog.csdn.net/article/details/112492183?spm=1001.2101.3001.6661.1&utm_medium=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-112492183-blog-112491554.pc_relevant_3mothn_strategy_and_data_recovery&depth_1-utm_source=distribute.pc_relevant_t0.none-task-blog-2%7Edefault%7ECTRLIST%7ERate-1-112492183-blog-112491554.pc_relevant_3mothn_strategy_and_data_recovery
+82、http://events.jianshu.io/p/493686eaf0d7
+83、https://www.jianshu.com/p/78bbcc15eac3
+84、http://events.jianshu.io/p/6c87108f3496
+85、https://www.jianshu.com/p/bc22ee0f87b4
+86、https://www.jianshu.com/p/346cb8c42677
+87、https://kdocs.cn/l/ca2enRBMTSgD
+
+
+
+
+
+
+
+
+
+
+
+
