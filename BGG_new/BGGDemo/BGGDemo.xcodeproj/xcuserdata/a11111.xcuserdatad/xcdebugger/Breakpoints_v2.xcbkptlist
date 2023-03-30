@@ -1,0 +1,583 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "9834BF1E-7C24-4BEF-B25B-F0A1E7721192"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C983AF3A-CC1D-4007-979B-28E27FBF2413"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-completeTransaction:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C983AF3A-CC1D-4007-979B-28E27FBF2413 - ec83f3f61f14e5b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager completeTransaction:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "40">
+               </Location>
+               <Location
+                  uuid = "C983AF3A-CC1D-4007-979B-28E27FBF2413 - ec83f3f61f14e5b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager completeTransaction:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "95"
+                  endingLineNumber = "95"
+                  offsetFromSymbolStart = "104">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "000D7ECF-C7CC-46A9-B7F8-638F856B4AF0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "-verifyPurchaseWithPaymentTransaction:isTestServer:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "000D7ECF-C7CC-46A9-B7F8-638F856B4AF0 - 97fdf289cb6804f1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager verifyPurchaseWithPaymentTransaction:isTestServer:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "64">
+               </Location>
+               <Location
+                  uuid = "000D7ECF-C7CC-46A9-B7F8-638F856B4AF0 - 97fdf289cb6804d6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager verifyPurchaseWithPaymentTransaction:isTestServer:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "64">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "946B2BF9-A5E7-4840-B283-2ACCA4315E24"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "237"
+            endingLineNumber = "237"
+            landmarkName = "-paymentQueue:updatedTransactions:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "946B2BF9-A5E7-4840-B283-2ACCA4315E24 - 666f1e67cf10b38c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager paymentQueue:updatedTransactions:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "238"
+                  endingLineNumber = "238"
+                  offsetFromSymbolStart = "96">
+               </Location>
+               <Location
+                  uuid = "946B2BF9-A5E7-4840-B283-2ACCA4315E24 - 666f1e67cf10b3a3"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager paymentQueue:updatedTransactions:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "237"
+                  endingLineNumber = "237"
+                  offsetFromSymbolStart = "96">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5D37033E-39D3-4A41-89AA-9017C8A21B9F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "190"
+            endingLineNumber = "190"
+            landmarkName = "-productsRequest:didReceiveResponse:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5D37033E-39D3-4A41-89AA-9017C8A21B9F - bf3b4f1074757fda"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager productsRequest:didReceiveResponse:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "191"
+                  endingLineNumber = "191"
+                  offsetFromSymbolStart = "108">
+               </Location>
+               <Location
+                  uuid = "5D37033E-39D3-4A41-89AA-9017C8A21B9F - bf3b4f1074757ffb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGAppStoreManager productsRequest:didReceiveResponse:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "190"
+                  endingLineNumber = "190"
+                  offsetFromSymbolStart = "108">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7EEFC347-4C2A-4D18-8CC2-B2F488CB9460"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGVender/appStore/BGGAppStoreManager.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "88"
+            endingLineNumber = "88"
+            landmarkName = "-handleActionWithType:data:tranId:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F1A28346-5D91-44F0-9821-4871975B0E93"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/Model/BGGDataModel.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "265"
+            endingLineNumber = "265"
+            landmarkName = "-appleSendGoodsWithRecordNumber:appStorePriceNumber:tranNum:receipt:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5E1A1E90-1A7A-4497-B44B-2A3D70BF846B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGAPI.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "377"
+            endingLineNumber = "377"
+            landmarkName = "-getConfig"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "79B26052-01F3-4648-A677-E77DF076A039"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/HTTPRequest/BGGHTTPRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
+            landmarkName = "+BGGGetFastLoginAccountAndPassSsuccessBlock:failBlock:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F89E0FCA-598B-4E10-A58C-9B6FB68D128C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGMainView/BGGMainBaseView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "-doback:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BBE71A5F-BDB6-4074-B49F-5CB2A471CD0C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGAPI.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "732"
+            endingLineNumber = "732"
+            landmarkName = "-BGGPresentView:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F736759F-3FC6-42F8-902D-4A643CFA2620"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGAPI.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "753"
+            endingLineNumber = "753"
+            landmarkName = "-BGGDismiss"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "13CC5A4A-EDAE-40E1-AC5F-CC3787E7F92F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGAPI.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "817"
+            endingLineNumber = "817"
+            landmarkName = "-showPMStatus:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D21BF5BD-5A0F-406A-915B-DCC758ED6E1B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGMainView/BGGPMStatusView.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "-comfirmBtn:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D21BF5BD-5A0F-406A-915B-DCC758ED6E1B - ba92ef26fcba99d8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "__30-[BGGPMStatusView comfirmBtn:]_block_invoke"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGMainView/BGGPMStatusView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "131"
+                  endingLineNumber = "131"
+                  offsetFromSymbolStart = "316">
+               </Location>
+               <Location
+                  uuid = "D21BF5BD-5A0F-406A-915B-DCC758ED6E1B - 4350603c2e10a4fd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGPMStatusView comfirmBtn:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGMainView/BGGPMStatusView.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "161"
+                  endingLineNumber = "161"
+                  offsetFromSymbolStart = "136">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "15BF02CD-1E91-4815-B888-57C8BEA61017"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGMenuView/BGGWKWebview.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "-webView:decidePolicyForNavigationAction:decisionHandler:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "876FDEF6-CCF2-40AE-B0E3-F0EB63B33174"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGAPI.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "790"
+            endingLineNumber = "790"
+            landmarkName = "-showPMStatus:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4C8A5002-849B-4A6C-B0F8-AC0AAB2A460A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGAPI.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "92"
+            endingLineNumber = "92"
+            landmarkName = "-UIApplicationWillEnterForeground:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "377104C1-4106-4C98-AE16-BD56A7BED0E1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGMenuView/BGGWKWebview.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "116"
+            endingLineNumber = "116"
+            landmarkName = "-webView:decidePolicyForNavigationAction:decisionHandler:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "377104C1-4106-4C98-AE16-BD56A7BED0E1 - 4f55e6e68ac3fe9f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGWKWebview webView:decidePolicyForNavigationAction:decisionHandler:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGMenuView/BGGWKWebview.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "116"
+                  endingLineNumber = "116"
+                  offsetFromSymbolStart = "2640">
+               </Location>
+               <Location
+                  uuid = "377104C1-4106-4C98-AE16-BD56A7BED0E1 - 4f55e6e68ac3fedd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGWKWebview webView:decidePolicyForNavigationAction:decisionHandler:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGMenuView/BGGWKWebview.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "118"
+                  endingLineNumber = "118"
+                  offsetFromSymbolStart = "2668">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "AB3907F1-0847-416C-BA0F-4447304140AD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/BGGMenuView/BGGWKWebview.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "135"
+            endingLineNumber = "135"
+            landmarkName = "-webView:decidePolicyForNavigationAction:decisionHandler:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "AB3907F1-0847-416C-BA0F-4447304140AD - 4f55e6e68ac3fd49"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGWKWebview webView:decidePolicyForNavigationAction:decisionHandler:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGMenuView/BGGWKWebview.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "138"
+                  endingLineNumber = "138"
+                  offsetFromSymbolStart = "3144">
+               </Location>
+               <Location
+                  uuid = "AB3907F1-0847-416C-BA0F-4447304140AD - 4f55e6e68ac3fd2a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "-[BGGWKWebview webView:decidePolicyForNavigationAction:decisionHandler:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/BGGMenuView/BGGWKWebview.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "3008">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D6155F06-D039-433D-9594-4E8A236BDF7C"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../BGGSDK/BGGSDK/HTTPRequest/BGGHTTPRequest.m"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "542"
+            endingLineNumber = "542"
+            landmarkName = "+BGGPM2WithRecordNUmber:successBlock:failBlock:"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D6155F06-D039-433D-9594-4E8A236BDF7C - 95692340d4d6c2db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[BGGHTTPRequest BGGPM2WithRecordNUmber:successBlock:failBlock:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/HTTPRequest/BGGHTTPRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "529"
+                  endingLineNumber = "529"
+                  offsetFromSymbolStart = "1448">
+               </Location>
+               <Location
+                  uuid = "D6155F06-D039-433D-9594-4E8A236BDF7C - 95692340d4d6c2fc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[BGGHTTPRequest BGGPM2WithRecordNUmber:successBlock:failBlock:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/HTTPRequest/BGGHTTPRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "530"
+                  endingLineNumber = "530"
+                  offsetFromSymbolStart = "1632">
+               </Location>
+               <Location
+                  uuid = "D6155F06-D039-433D-9594-4E8A236BDF7C - 95692340d4d6c308"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "+[BGGHTTPRequest BGGPM2WithRecordNUmber:successBlock:failBlock:]"
+                  moduleName = "BGGSDK"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/yangxianggang/Documents/tw_svn/Bingo/BGG_new/BGGSDK/BGGSDK/HTTPRequest/BGGHTTPRequest.m"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "542"
+                  endingLineNumber = "542"
+                  offsetFromSymbolStart = "1632">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
